@@ -1,4 +1,5 @@
 // It is finding the largest and smallest element in an array
+// 4-01-2023
 import java.util.Arrays;
 import java.util.Scanner;
 public class ArrayShort {

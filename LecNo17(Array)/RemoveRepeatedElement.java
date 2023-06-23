@@ -1,4 +1,4 @@
-  //24-02-23  Program to print ones times of reapeating element
+  //24-02-23  Program to print ones times of repeating element
 import java.util.*;
 class RemoveRepeatedElement{
     public static void main(String[] args) {
