@@ -6,7 +6,7 @@ public class SpiralArray {
         int total=0;
 
         while(total<r*c){
-            //top row= left col --- rihgt col
+            //top row= left col --- right col
             for (int j = leftcol; j <= rightcol && total<r*c; j++) {
                 System.out.print(arr[toprow][j]+" ");
                 
@@ -14,7 +14,7 @@ public class SpiralArray {
             }
             toprow++;
              
-            //right coloumn=top row ---bottom row
+            //right column=top row ---bottom row
             for (int i = toprow; i <= bottomrow && total<r*c; i++) {
                 System.out.print(arr[i][rightcol]+" ");
                 
@@ -50,7 +50,7 @@ public class SpiralArray {
         int c=sc.nextInt();
         int [][]a=new int [r][c];
         System.out.println("enter the Matrix "+r*c+" Element");
-            for (int i = 0; i < r; i++) 
+        for (int i = 0; i < r; i++) 
           {
             for (int j = 0; j < c; j++) 
             {

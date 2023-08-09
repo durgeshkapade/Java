@@ -1,6 +1,6 @@
 //Bubble sort  8 6 9 4 7  ------>  4 6 7 8 9 
 //8-6-23
-// use flag for optimize the code (not required flag)
+// use flag for optimize the code (not required flag)  
 public class BubbleSort
 {
     
