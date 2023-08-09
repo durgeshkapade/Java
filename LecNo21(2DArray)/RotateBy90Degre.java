@@ -30,7 +30,7 @@ public class RotateBy90Degre {
             ReverseArray(a[i]); //reverse row one by one
         }
 
-    }
+}
 
 
 

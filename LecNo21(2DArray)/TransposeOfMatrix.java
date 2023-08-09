@@ -25,7 +25,7 @@ public class TransposeOfMatrix {
         int c=sc.nextInt();
         int [][]a=new int [r][c];
         System.out.println("enter the Matrix "+r*c+" Element");
-            for (int i = 0; i < r; i++) 
+        for (int i = 0; i < r; i++) 
           {
             for (int j = 0; j < c; j++) 
             {

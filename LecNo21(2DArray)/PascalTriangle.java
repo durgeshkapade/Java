@@ -28,7 +28,7 @@ public class PascalTriangle {
         int n=sc.nextInt();
         int [][]ans=pascal(n); 
 
-        System.out.println("The Transepose of matrix is");
+        System.out.println("The pascal triangle is : ");
         for (int i = 0; i <ans.length; i++) 
         {
             for (int j = 0; j < ans[i].length; j++) 
@@ -39,6 +39,8 @@ public class PascalTriangle {
           
             System.out.println();
         }
+
+        
        }
     
 }
