@@ -17,7 +17,6 @@ public class PalindromeStrCheak{
     Scanner sc=new Scanner(System.in);
     String s=sc.nextLine();
     String rev=reverse(s,0);
-    
     if(rev.equals(s)){                 // for compare string
         System.out.printf("%s is palindrome",s);
     }else{
