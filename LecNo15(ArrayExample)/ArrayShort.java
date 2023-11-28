@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class ArrayShort {
     public static void main(String [] args) {
         
-            Scanner var = new Scanner(System.in); {
+            Scanner var = new Scanner(System.in); 
+            var.close();
             System.out.println("Enter the size of array");
               int n=var.nextInt();
 
@@ -23,8 +24,9 @@ public class ArrayShort {
                 //   }
 
                   System.out.println("the Smallest element is "+arr[0]+" The Largest element is "+arr[arr.length-1]);
-        }
-    }
+      
+                  var.close();
+      }
 
 
 
