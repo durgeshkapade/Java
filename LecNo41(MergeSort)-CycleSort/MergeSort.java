@@ -45,7 +45,8 @@ public class MergeSort {
 		if (l >= r) {
 			return;
 		}
-		       int mid = (l + r) / 2;
+		
+		int mid = (l + r) / 2;
 
 		// Recursive work
 		mergesort(arr, l, mid); // it sort 0 t0 half

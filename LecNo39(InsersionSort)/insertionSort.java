@@ -1,6 +1,7 @@
 //insertion sort  8 6 9 4 7  ------>  4 6 7 8 9 
 //10-6-23
 public class insertionSort {
+	
 
 	static void search(int arr[]){
 		int n=arr.length;
@@ -28,6 +29,8 @@ public class insertionSort {
 		  for (int i : arr) {
 			System.out.print(i+" ");
 		  }
-		}
+
+
+	}
 	
 }
